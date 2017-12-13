@@ -1,0 +1,5 @@
+AddHandler application/x-httpd-php70 .php
+
+RewriteEngine On
+RewriteRule ^(.*/.*/.+) $1 [L]
+RewriteRule ^(.*) index.php
