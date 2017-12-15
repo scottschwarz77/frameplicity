@@ -1,4 +1,3 @@
-Options -MultiViews
 RewriteEngine On
 RewriteRule ^(.*/.*/.+) $1 [END]
 RewriteRule ^(.*) index.php
