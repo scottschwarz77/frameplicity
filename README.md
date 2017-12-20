@@ -8,6 +8,6 @@ Frameplicity is designed for you, the learner-- In fact, it's not meant to be de
 
 The framework may seem complex at first. That's because you're learning it from the inside-out. It's much simpler than the well known, enterprise grade web frameworks that you couldn't possibly learn from the inside-out. 
 
-You learn Frameplicity by completing activities. These activities ask you use the framework and also extend its core functionality*. After mastering the framework, you will understand the fundamentals of templates, page routing, partials, component architecture and inversion of control. This knowledge will ease your transition to more advanced frameworks.
+You learn Frameplicity by completing activities. These activities ask you use the framework and also extend its core functionality(*). After mastering the framework, you will understand the fundamentals of templates, page routing, partials, component architecture and inversion of control. This knowledge will ease your transition to more advanced frameworks.
 
-* Currently Frameplicity is in beta and the activities do not involve extending the framework. Such activities are planned for development at a later time.
+(*) Currently Frameplicity is in beta and the activities do not involve extending the framework. Such activities are planned for development at a later time.

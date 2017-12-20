@@ -43,7 +43,7 @@ class Page {
 
 	public function convertPageToHTML($str) {
 		$str = nl2br($str);
-		$str = str_replace("%FLAT_BASEURI%",URLParser::getBaseURL(),$str);
+		$str = str_replace("%BASEURL%",URLParser::getBaseURL(),$str);
 		return $str;
 	}
 
