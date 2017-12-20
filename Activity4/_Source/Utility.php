@@ -39,7 +39,6 @@ class Utility {
 
 	public static function getPageNameFromFileName($fileName) {
   		$tempStr = substr($fileName,3,strlen($fileName)-3); 
-   		//$tempStr = substr($fileName,0,strlen($fileName)-4);
     	return $tempStr;
 	}
 

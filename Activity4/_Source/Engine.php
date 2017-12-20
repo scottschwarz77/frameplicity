@@ -105,7 +105,6 @@ class Engine {
 		try {
 			URLParser::run();
 			self::loadGlobalSettings();
-			$settings = self::getGlobalSettings();
 			URLParser::writeURLInfoToLog();
 			self::locatePageInFileSystem();
 			self::createFoundPageAndFolder();

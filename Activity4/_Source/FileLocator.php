@@ -20,7 +20,7 @@ class FileLocator {
 	}
 
 	public function locatePageFile() {
-		$searchFilePathPages = "./Pages/[0-9][0-9]-".URLParser::getPageName();//.".*";
+		$searchFilePathPages = "./Pages/[0-9][0-9]-".URLParser::getPageName();
 		writeToLog('');
 		writeToLog(LogMessage::SEARCH_FOR_FILE_GENERAL);
 		writeToLog(LogMessage::SEARCH_FOR_FILE,$searchFilePathPages);
