@@ -22,7 +22,7 @@ class URLParser {
 	}
 
 	public static function getQueryString() {
-		return $_SERVER['QUERY_STRING'];
+		return parse_url($_SERVER['REQUEST_URI'],PHP_URL_QUERY);
 	}
 	public static function getQueryStringFieldValue($fieldName) {
 		parse_str(self::getQueryString(),$queryStringArr);
