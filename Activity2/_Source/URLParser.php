@@ -40,9 +40,9 @@ class URLParser {
 		
 	public static function getBaseURL() {
 		if (self::getSiteName() <> null)
-			return "http://".$_SERVER['SERVER_NAME']."/".self::getSiteName();
+			return "http://".$_SERVER['HTTP_HOST']."/".self::getSiteName();
 		else
-			return "http://".$_SERVER['SERVER_NAME'];
+			return "http://".$_SERVER['HTTP_HOST'];
 	}
 
 	private static function getSegmentCount() {
