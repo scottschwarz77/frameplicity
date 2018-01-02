@@ -1,0 +1,15 @@
+#### Log for Mon, 01 Jan 2018 20:27:13 +0000 (UTC time) ####
+
+*** URL request info ***
+URL requested from browser (without domain): /frameplicity/Activity2/
+=> Query string is: [empty]
+=> Site name is: frameplicity
+=> Page name is: Activity2
+Verifying folder ./Pages/ exists in file system
+=> Folder ./Pages/ found in file system
+
+*** Searching for file in file system corresponding to URL page name ***
+Searching for file path using regular expression ./Pages/[0-9][0-9]-Activity2
+File path not found
+
+
